@@ -25,3 +25,7 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
    * Hashing : turns the code into a matrix that holds the occurrence counts
    * IDF: idf is a vector that fix a huge underlying problem of non meaningfull words that appear many times within our text 
    * vectorAssember
+ * after which we split the data in training and testing data using pysparks code : randomSplit([0.7, 0.3], 21)
+ * train the data and fit it 
+ 
+# Group Project Fake News
