@@ -16,7 +16,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 SQL is the database we intend to use, and we will integrate Flask to display the data.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is Natural Language processing and Bianary Classification Evaluators. 
+In the end we swtiched from SciKitLearn to Spark-NLP which is a library created by John Snow Labs for preforming efficient natural language processing tasking using Spark. We decided to use this because it it was something we learned brefly in a preveous moduel and learning it can improve our skills. but also it is made for decifering words and so far it does it well with a 94 %. It also has a whole pipe line which include removing stop words which helps alot. It also is used for huge data which means this data set could be scaled and still produce results. Its not by all means perfect. Transformation code is a little clunky and manipulation is not as easy as pandas(could be a personal oppinon). You need to use it on google colab (good and bad thing). 
 
 # Description of preliminary data preprocessing
 * Data went through many transformations when trying to make it work with pyspark nlp pipeline. One being having it actually reading it correctly because the many tabs, enters and commas in it that are miss read as escape and delimiter value. After which we finally go into the pipeline which includes: 
