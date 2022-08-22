@@ -27,5 +27,12 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
    * vectorAssember
  * after which we split the data in training and testing data using pysparks code : randomSplit([0.7, 0.3], 21)
  * train the data and fit it 
- 
+ * and test it to see our accuracy
+* So far we have a 94% accuracy
+#  Description of preliminary feature
+ * befor i orginaly i had 93 befor i had the mashine learning also look at thet text as well
+ * 94 % is good but not perfect. Word Bias would be important to look at fallowing through. with out research ive created my own code that would make a confusion matrix given a word. doing so showws if the word were wrong guessing it was fake news when it reality it should have been real and vise versa. seeing this can give us a better understanding of each value
+# Conclussion
+ * there is still much to do. starting this week i wanto try removing data with words that may confuse the matrix. I also want to try replacing None( our word we used to replace N/A) with another word that might not pop up as much cause this could create bias as well. 
+=======
 # Group Project Fake News
