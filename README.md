@@ -34,5 +34,11 @@ In the end we swtiched from SciKitLearn to Spark-NLP which is a library created 
  * 94 % is good but not perfect. Word Bias would be important to look at fallowing through. with out research ive created my own code that would make a confusion matrix given a word. doing so showws if the word were wrong guessing it was fake news when it reality it should have been real and vise versa. seeing this can give us a better understanding of each value
 # Conclussion
  * there is still much to do. starting this week i wanto try removing data with words that may confuse the matrix. I also want to try replacing None( our word we used to replace N/A) with another word that might not pop up as much cause this could create bias as well. 
+ 
+ # Problems with code
+ * The only bugs that can really effect the code is the data it self. It needs to be cleaned. 
+  * Tabs and enters have to be removed in pandas. 
+  * Nan and empy cells need to be replaced. 
+ * Well trying my own way of checking bias it was found that removing the word complelty only made the percentage lower. 
 =======
 # Group Project Fake News
